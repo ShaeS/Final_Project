@@ -1,0 +1,12 @@
+body{
+    
+    background-image:url("../ESKdesign/img/white.jpg"),  
+    url("../ESKdesign/img/bgimage.jpg");
+
+    background-position: center;
+   
+    background-repeat: repeat-y, repeat;
+
+    background-size: 60%, auto; 
+    
+}
