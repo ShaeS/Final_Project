@@ -1,15 +1,141 @@
 body {
-    background-image:url("img/white.jpg"),  
-    url("img/bgimage.jpg");
+    background-image: url("img/bgimage.jpg");
     background-position: center;
-    background-repeat: repeat-y, repeat;
-    background-size: 70%, auto; 
-    position: relative, absolute;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    position: relative;
+    font-family: 'Avenir';
+    font-size: 1.5vw;
     }
 img.banner {
-	width: 70.9%;
-	height:30%;
+	width: 100%;
+	height:20%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	}
+div.backg {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 10%;
+	display: block;
+	background-color: white;
+	box-shadow: -4px 4px 10px black, 4px 4px 10px black;
+	}
+	
+div.whitediv {
+	width: 100%;
+	height:30%;
+	min-height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+    padding-bottom: 0.1%;
+    padding-top: 0.1%;
+	display: block;
+	clear: both;
+	}
+div.greydiv {
+	background-color: rgb(240,240,240);
+	width: 100%;
+	height:30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 0.1%;
+	padding-bottom: 0.1%;
+	clear: both;
+	}
+p.homep {
+	margin-left: 10%;
+	margin-right: 10%;
+	display: block;
+	clear:both;
+	}
+	
+/**Menubar code **/
+	
+#menubar {
+	text-align:center;
+	font-family:"avenir";
+	font-size:5vw;
+	font-size:3vh;
+	margin-left:auto;
+	margin-right:auto;
+    width: 100%;
+    margin-top: -1.4%;
+
+}
+
+.menu {
+	display:inline;
+	padding:1.5%;
+}
+
+#menubar a{
+		display:inline-block;
+		padding:0%;
+		margin:0%;
+		text-decoration:none;
+		color:#FFFFFF;
+		opacity:.5;
+}
+
+#menubarbackground{ 
+				background: linear-gradient(#D7CCB9,#B99E6B); 
+				position: fixed; 
+				top: 0;
+				height: 6%;
+				width: 69.1%;
+				margin-left: auto;
+				margin-right: auto;
+				display: block;
+	
+}
+ 
+
+#menubarbackround .menulistmenu .menu{ 
+       display: inline-block; 
+}
+
+#menubar a:hover {color:#FFFFFF;
+	   text-decoration:underline;
+	   opacity: 0.9;
+ }
+
+div.centerbar { 
+				width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+div#footer {
+    bottom: 0px;
+    left:0px;
+    width:100%;
+    background: linear-gradient(#B99E6B,#D7CCB9); 
+    position:relative;
+}
+
+p#copyright {
+    margin-left: 90%;
+    padding:0%;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
+img.teamimg {
+    width: 25%;
+    float: left;
+    margin-top: 1.4%;
+    margin-left: 2%;
+}
+p.teamp {
+	margin-left: 30%;
+	margin-right: 10%;
+	display: block;
+	}
+div.teamimg {
+    height :90%;
+}
