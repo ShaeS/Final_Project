@@ -163,4 +163,5 @@ iframe.map {
     height: 40%;
     width:100%;
     border-color: black;
+    box-shadow: 5px 5px 30px black;
 }
