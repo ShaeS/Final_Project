@@ -165,3 +165,21 @@ iframe.map {
     border-color: black;
     box-shadow: 5px 5px 30px black;
 }
+div.contactarea {
+    margin-left: 7%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 7%;
+}
+input.nameemail {
+    border-color: rgb(220,220,220);
+    outline-color: rgb(200,200,200);
+    resize: none;
+    width: 30%;
+}
+textarea.message {
+    border-color: rgb(220,220,220);
+    outline-color: rgb(200,200,200);
+    resize: none;
+    
+}
