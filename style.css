@@ -145,3 +145,22 @@ p.teamp {
 div.teamimg {
     height :90%;
 }
+div.contactleft {
+    float: left;
+    width: 35%;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+div.contactmap {
+    float: left;
+    width: 40%;
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left:10%;
+}
+iframe.map {
+    height: 40%;
+    width:100%;
+    border-color: black;
+}
