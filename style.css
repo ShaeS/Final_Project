@@ -68,6 +68,9 @@ p.homep {
 
 }
 
+#selected-item { text-decoration:overline;
+				
+}
 .menu {
 	display:inline;
 	padding:1.5%;
@@ -77,11 +80,12 @@ p.homep {
 		display:inline-block;
 		padding:0%;
 		margin:0%;
-		text-decoration:none;
+		text-decoration:inherit;
 		color:#FFFFFF;
-		opacity:.5;
+		opacity:.7;
 }
 
+				
 #menubarbackground{ 
 				background: linear-gradient(#D7CCB9,#B99E6B); 
 				position: fixed; 
@@ -100,9 +104,11 @@ p.homep {
 }
 
 #menubar a:hover {color:#FFFFFF;
-	   text-decoration:underline;
-	   opacity: 0.9;
+	   text-decoration:inherit;
+	   opacity: 1;
  }
+ 
+ 
 
 div.centerbar { 
 				width: 70%;
