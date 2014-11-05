@@ -346,11 +346,12 @@ div.footerwhole {
 }
 =======
 		
-.homeicons { display: inline;
-margin:5%; }
+.homeicons { 
+ display: inline;
+ margin: 5%; }
 
 .brandicons {
-margin: 5%; }
+ margin: 3%; }
 
 #aivia {margin-bottom: 11%}
 >>>>>>> origin/master
