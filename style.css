@@ -206,7 +206,7 @@ div.socialdiv {
     display: block;
     width: 5%;
 }
-<<<<<<< Updated upstream
+
 img.footlogo {
     width: 150%;
     margin-left: -33%;
@@ -232,9 +232,19 @@ div.footerwhole {
 	display: block;
 	clear: both;
 }
-=======
+
 
 .homeheader { text-align:center;
 }
 			  
->>>>>>> Stashed changes
+.homebuttons { text-decoration: none;
+				color: #B99E6B;
+}
+
+.homebuttons:hover { color:#000000;
+					 text-decoration:underline;
+	   				 opacity: .7;
+		}
+		
+
+		
