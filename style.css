@@ -1,5 +1,5 @@
 body {
-    background-image: url("img/bgimage.jpg");
+    background-image: url("img/bgimage2.jpg");
     background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
@@ -10,9 +10,7 @@ body {
     }
 img.banner {
 	width: 100%;
-	height:20%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-bottom:-4%;
 	display: block;
     border-bottom: 5%;
 	}
@@ -65,7 +63,6 @@ p.homep {
 	margin-left:auto;
 	margin-right:auto;
     width: 100%;
-    margin-top: -1.4%;
 
 }
 
@@ -75,12 +72,15 @@ p.homep {
 .menu {
 	display:inline;
 	padding:1.5%;
+	width:100%;
+	
+	
 }
 
 #menubar a{
+		margin-top:1%;
+		margin-bottom:1%;
 		display:inline-block;
-		padding:0%;
-		margin:0%;
 		text-decoration:inherit;
 		color:#FFFFFF;
 		opacity:.7;
@@ -88,20 +88,20 @@ p.homep {
 
 				
 #menubarbackground{ 
+				
+                width:142.7%;
+				margin-left:-21.3%;
 				background: linear-gradient(#D7CCB9,#B99E6B); 
-				position: fixed; 
-				top: 0;
-				height: 6%;
-				width: 69.1%;
-				margin-left: auto;
-				margin-right: auto;
+				position: relative; 
 				display: block;
-	
+						
 }
  
 
 #menubarbackround .menulistmenu .menu{ 
-       display: inline-block; 
+       width:100%;
+	   display: inline-block; 
+	   
 }
 
 #menubar a:hover {color:#FFFFFF;
