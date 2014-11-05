@@ -48,11 +48,17 @@ div.greydiv {
 	
 	}
 p.homep {
-	
 	display: block;
 	clear:both;
 	}
-	
+
+p.homepara {	
+	display:block;
+	clear:both;
+	margin: 5%;
+	}
+
+
 div.whitedivhome { 
 	width: 100%;
 	height:30%;
@@ -78,6 +84,8 @@ div.greydivhome {
 	clear: both;
 	text-align: center;
 }
+
+
 /**Menubar code **/
 	
 #menubar {
