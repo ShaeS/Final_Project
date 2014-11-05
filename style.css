@@ -34,6 +34,7 @@ div.whitediv {
     padding-top: 0.1%;
 	display: block;
 	clear: both;
+	text-align:center;
 	}
 div.greydiv {
 	background-color: rgb(240,240,240);
@@ -45,10 +46,10 @@ div.greydiv {
 	padding-top: 0.1%;
 	padding-bottom: 0.1%;
 	clear: both;
+	text-align:center;
 	}
 p.homep {
-	margin-left: 10%;
-	margin-right: 10%;
+	
 	display: block;
 	clear:both;
 	}
@@ -205,6 +206,7 @@ div.socialdiv {
     display: block;
     width: 5%;
 }
+
 img.footlogo {
     width: 150%;
     margin-left: -33%;
@@ -231,5 +233,17 @@ div.footerwhole {
 	margin-right: auto;
 	display: block;
 	clear: both;
-    margin-bottom: 
 }
+
+
+.homeheader { text-align:center;
+}
+			  
+.homebuttons { text-decoration: none;
+				color: #B99E6B;
+}
+
+.homebuttons:hover { color:#000000;
+					 text-decoration:underline;
+	   				 opacity: .7;
+		}
