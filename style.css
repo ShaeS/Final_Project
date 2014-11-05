@@ -279,3 +279,6 @@ div.footerwhole {
 					 text-decoration:underline;
 	   				 opacity: .7;
 		}
+		
+.homeicons { display: inline;
+margin:5%; }
