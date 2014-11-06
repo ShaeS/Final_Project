@@ -279,7 +279,6 @@ div.footerwhole {
 					 text-decoration:underline;
 	   				 opacity: .7;
 		}
-<<<<<<< HEAD
 
 /**Portfolio Code **/
 
@@ -344,7 +343,6 @@ div.footerwhole {
 .image_gallery li a:hover {
   	outline-color: #D7CCB9;
 }
-=======
 		
 .homeicons { 
  display: inline;
@@ -354,4 +352,3 @@ div.footerwhole {
  margin: 3%; }
 
 #aivia {margin-bottom: 11%}
->>>>>>> origin/master
