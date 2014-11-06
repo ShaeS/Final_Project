@@ -270,6 +270,13 @@ div.footerwhole {
 .logocenter:hover {
 opacity: 0.7;
 }
+.brandicons:hover {
+	 opacity:0.5;	 
+ }
+ 
+ .homeicons:hover {
+	 	opacity:0.5;
+ }
 
 
 .homeheader { text-align:center;
@@ -283,6 +290,7 @@ opacity: 0.7;
 					 text-decoration:underline;
 	   				 opacity: .7;
 		}
+		
 
 /**Portfolio Code **/
 
@@ -397,5 +405,6 @@ div.logo_gallery_container {
 
 .brandicons {
  margin: 3%; }
+ 
 
 #aivia {margin-bottom: 11%}
