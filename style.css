@@ -15,7 +15,7 @@ img.banner {
     border-bottom: 5%;
 	}
 div.backg {
-	width: 70%;
+	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
     margin-bottom: 2%;
@@ -122,8 +122,8 @@ div.greydivhome {
 				
 #menubarbackground{ 
 				
-                width:142.7%;
-				margin-left:-21.3%;
+                width:142.9%;
+				margin-left:-21.5%;
 				background: linear-gradient(#D7CCB9,#B99E6B); 
 				position: relative; 
 				display: block;
