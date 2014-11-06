@@ -267,6 +267,10 @@ div.footerwhole {
 	clear: both;
 }
 
+.logocenter:hover {
+opacity: 0.7;
+}
+
 
 .homeheader { text-align:center;
 }
