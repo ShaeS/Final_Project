@@ -291,10 +291,16 @@ div.portfoliop {
 	margin-top: 3%;
 }
 
+div.logo_gallery_container { 
+	margin-top: 2%;
+	margin-left: 43%;
+	margin-right: 30%;
+	margin-bottom: -4%;
+}
 
-
-img.main_image {
-
+.logo_gallery_container img{
+	width:50%;
+	height:50%;
 }
 
 .main_image_gallery .main_image {
@@ -305,11 +311,11 @@ img.main_image {
 }
 
 .main_image_gallery .main_image img {
-  max-width:100%;
-  max-height: 100%;
-  display:none;
-  margin: auto;
- box-shadow: 3px 3px 3px black;
+	max-width:100%;
+	max-height: 100%;
+	display:none;
+	margin: auto;
+	box-shadow: 3px 3px 3px black;
 
 }
 
@@ -379,13 +385,8 @@ img.main_image {
   	outline-color: #D7CCB9;
 }
 
-<<<<<<< HEAD
-
 /**Portfolio Code **/
-=======
-=======
->>>>>>> origin/master
-		
+	
 .homeicons { 
  display: inline;
  margin: 5%; }
