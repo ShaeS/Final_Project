@@ -328,6 +328,7 @@ div.logo_gallery_container {
 	display:none;
 	margin: auto;
 	box-shadow: 3px 3px 3px black;
+	
 
 }
 
@@ -390,7 +391,6 @@ div.logo_gallery_container {
   		-webkit-transition: outline .2s;
   		-moz-transition: outline .2s;
   		transition: outline .2s;
-
 }
 
 .image_gallery li a:hover {
