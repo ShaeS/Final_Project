@@ -424,3 +424,44 @@ div.logo_gallery_container {
  
 
 #aivia {margin-bottom: 11%}
+
+
+div.greydivteam {
+	background-color: #FFFFFF;
+	width: 100%;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 3%;
+	padding-bottom: 20%;
+	clear: both;
+	text-align: center;
+}
+
+
+div.whitedivteam {
+	background-color: rgb(240,240,240);
+	width: 100%;
+	height:30%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 3%;
+	padding-bottom: 20%;
+	clear: both;
+	text-align: center;
+}
+
+div.introteamdiv {
+	background-color: #FFFFFF;
+	width: 100%;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 4%;
+	padding-bottom: 5%;
+	clear: both;
+	text-align: center;
+}
