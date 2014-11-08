@@ -8,12 +8,14 @@ body {
     font-family: 'Avenir';
     font-size: 1.5vw;
     }
+
 img.banner {
 	width: 100%;
 	margin-bottom:-4%;
 	display: block;
     border-bottom: 5%;
 	}
+
 div.backg {
 	width: 80%;
 	margin-left: auto;
@@ -23,7 +25,7 @@ div.backg {
 	background-color: white;
 	box-shadow: -4px 4px 10px black, 4px 4px 10px black;
 	}
-	
+
 div.whitediv {
 	width: 100%;
 	height:30%;
@@ -35,6 +37,7 @@ div.whitediv {
 	display: block;
 	clear: both;
 	}
+
 div.greydiv {
 	background-color: rgb(240,240,240);
 	width: 100%;
@@ -45,8 +48,8 @@ div.greydiv {
 	padding-top: 0.1%;
 	padding-bottom: 0.1%;
 	clear: both;
-	
 	}
+
 p.homep {
 	display: block;
 	clear:both;
@@ -57,7 +60,6 @@ p.homepara {
 	clear:both;
 	margin: 5%;
 	}
-
 
 div.whitedivhome { 
 	width: 100%;
@@ -85,7 +87,6 @@ div.greydivhome {
 	text-align: center;
 }
 
-
 /**Menubar code **/
 	
 #menubar {
@@ -96,60 +97,45 @@ div.greydivhome {
 	margin-left:auto;
 	margin-right:auto;
     width: 100%;
-
 }
 
-#selected-item { text-decoration:overline;
-				
+#selected-item { 
+    text-decoration:overline;			
 }
+
 .menu {
 	display:inline;
 	padding:1.5%;
 	width:100%;
-	
-	
 }
 
-#menubar a{
-		margin-top:1%;
-		margin-bottom:1%;
-		display:inline-block;
-		text-decoration:inherit;
-		color:#FFFFFF;
-		opacity:.7;
+#menubar a {
+    margin-top:1%;
+    margin-bottom:1%;
+    display:inline-block;
+    text-decoration:inherit;
+    color:#FFFFFF;
+    opacity:.7;
 }
 
-				
-#menubarbackground{ 
-				
-                width:142.9%;
-				margin-left:-21.5%;
-				background: linear-gradient(#D7CCB9,#B99E6B); 
-				position: relative; 
-				display: block;
-						
+#menubarbackground { 		
+    width:100%;
+    background: linear-gradient(#D7CCB9,#B99E6B); 
+    position: relative; 
+    display: block;						
+}
+
+#menubarbackround .menulistmenu .menu { 
+    width:100%;
+    display: inline-block; 
+}
+
+#menubar a:hover {
+    color:#FFFFFF;
+    text-decoration:inherit;
+    opacity: 1;
 }
  
-
-#menubarbackround .menulistmenu .menu{ 
-       width:100%;
-	   display: inline-block; 
-	   
-}
-
-#menubar a:hover {color:#FFFFFF;
-	   text-decoration:inherit;
-	   opacity: 1;
- }
- 
- 
-
-div.centerbar { 
-				width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
 div#footer {
     bottom: 0px;
     left:0px;
@@ -158,33 +144,30 @@ div#footer {
     position:fixed;
 }
 
-p#copyright {
-    margin-left: 90%;
-    padding:0%;
-    margin-top:0%;
-    margin-bottom:0%;
-}
-
 img.teamimg {
     width: 25%;
     float: left;
     margin-top: 1.4%;
     margin-left: 2%;
 }
+
 p.teamp {
 	margin-left: 30%;
 	margin-right: 10%;
 	display: block;
 	}
+
 div.teamimg {
     height :90%;
 }
+
 div.contactleft {
     float: left;
     width: 35%;
     margin-left: 7%;
     margin-top: 3%;
 }
+
 div.contactmap {
     float: left;
     width: 40%;
@@ -193,24 +176,28 @@ div.contactmap {
     margin-bottom: 5%;
     margin-left:10%;
 }
+
 iframe.map {
     height: 40%;
     width:100%;
     border-color: black;
     box-shadow: 5px 5px 30px black;
 }
+
 div.contactarea {
     margin-left: 7%;
     margin-top: 5%;
     margin-bottom: 5%;
     margin-right: 7%;
 }
+
 input.nameemail {
     border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
     width: 30%;
 }
+
 textarea.message {
     border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
@@ -218,6 +205,7 @@ textarea.message {
     border: inset; 
     width: 70%;
 }
+
 input.submit {
     border : solid 1px #4d3f2a;
 	border-radius : 3px;
@@ -228,10 +216,12 @@ input.submit {
 	background-color : #b19f6d;
     outline-color: rgb(200,200,200);
 }
+
 img.social {
     width: 50%;
     display: inline-block;
 }
+
 div.socialdiv {
     margin-left: auto;
     margin-right: auto;
@@ -243,12 +233,14 @@ img.footlogo {
     width: 150%;
     margin-left: -26%;
 }
+
 img.sociallink {
     width: 25%;
     margin-left: 36%;
     margin-top: 35%;
     box-shadow: 5px 5px 5px black;
 }
+
 div.logocenter {
     width:20%;
     margin-left: auto;
@@ -268,37 +260,37 @@ div.footerwhole {
 }
 
 .logocenter:hover {
-opacity: 0.7;
+    opacity: 0.7;
 }
+
 .brandicons:hover {
 	 opacity:0.5;	 
- }
+}
  
- .brandicons { width: 20%;
-       
-			   
- }
+ .brandicons { 
+     width: 20%;		   
+}
  
  .homeicons:hover {
-	 	opacity:0.5;
- }
+     opacity:0.5;
+}
 
-
-.homeheader { text-align:center;
+.homeheader { 
+    text-align:center;
 }
 			  
-.homebuttons { text-decoration: none;
-				color: #B99E6B;
+.homebuttons { 
+    text-decoration: none;
+    color: #B99E6B;
 }
 
-.homebuttons:hover { color:#000000;
-					 text-decoration:underline;
-	   				 opacity: .7;
-		}
+.homebuttons:hover { 
+    color:#000000;
+    text-decoration:underline;
+    opacity: .7;
+}
 		
-
 /**Portfolio Code **/
-
 
 div.portfoliop {
 	display:block;
@@ -315,7 +307,7 @@ div.logo_gallery_container {
 	margin-bottom: -2%;
 }
 
-.logo_gallery_container img{
+.logo_gallery_container img {
 	width:50%;
 	height:50%;
 }
@@ -333,14 +325,19 @@ div.logo_gallery_container {
 	display:none;
 	margin: auto;
 	box-shadow: 3px 3px 3px black;
-	
-
 }
 
-.main_image_gallery .main_image img:target{display:block;}
-.main_image_gallery .main_image img:target ~ img#image9{display:none;}
-.main_image_gallery .main_image img#image9{display:block;}
+.main_image_gallery .main_image img:target {
+    display:block;
+}
 
+.main_image_gallery .main_image img:target ~ img#image9 {
+    display:none;
+}
+
+.main_image_gallery .main_image img#image9 {
+    display:block;
+}
 
 .image_box {
   	padding-bottom: 1em;
@@ -352,7 +349,6 @@ div.logo_gallery_container {
  	padding: 0;
   	display: block;
   	border: none;
-
 }
 
 .image_gallery {
@@ -362,8 +358,8 @@ div.logo_gallery_container {
   	padding: 0;
   	overflow: auto;
   	list-style: none;
-
 }
+
 #aivia_center {
 	width:58%;
   	margin-left:auto;
@@ -372,6 +368,7 @@ div.logo_gallery_container {
   	overflow: auto;
   	list-style: none;
 }
+
 .image_gallery li {
 	max-width:33%;
 	max-height: 100%;
@@ -393,9 +390,9 @@ div.logo_gallery_container {
 
 .image_gallery li,.image_gallery li a {
   	float: left;
-    	box-sizing: border-box;
-  		-webkit-box-sizing: border-box;
-  		-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 .image_gallery li a {
@@ -404,9 +401,9 @@ div.logo_gallery_container {
   	margin-left: auto;
   	margin-right: auto;
   	outline: 5px solid transparent;
-  		-webkit-transition: outline .2s;
-  		-moz-transition: outline .2s;
-  		transition: outline .2s;
+    -webkit-transition: outline .2s;
+    -moz-transition: outline .2s;
+    transition: outline .2s;
 }
 
 .image_gallery li a:hover {
@@ -416,15 +413,18 @@ div.logo_gallery_container {
 /**Portfolio Code **/
 	
 .homeicons { 
- display: inline;
- margin: 5%; }
+    display: inline;
+    margin: 5%;
+}
 
 .brandicons {
- margin: 3%; }
+    margin: 3%; 
+}
  
 
-#aivia {margin-bottom: 11%}
-
+#aivia {
+    margin-bottom: 11%;
+}
 
 div.greydivteam {
 	background-color: #FFFFFF;
