@@ -352,7 +352,7 @@ div.logo_gallery_container {
 }
 
 .image_gallery {
-  	width:80%;
+  	width:70%;
   	margin-left:auto;
   	margin-right:auto;
   	padding: 0;
@@ -372,18 +372,15 @@ div.logo_gallery_container {
 .image_gallery li {
 	max-width:33%;
 	max-height: 100%;
-  	padding: 5px;
+	margin-bottom:5%;
+	margin-top: 3%;
+	margin-right: .3%;
+  	padding: 3px;
   	float: left;
   	background-color: #ffffff;
   	border: 1px solid #e3e3e3;
   	border-radius: 2px;
 }
-
-.image_gallery li {
-  	margin-right: auto;
-  	margin-left:auto;
-}
-
 .image_gallery li: {
   	clear: left;
 }
@@ -400,7 +397,7 @@ div.logo_gallery_container {
   	width: 100%;
   	margin-left: auto;
   	margin-right: auto;
-  	outline: 5px solid transparent;
+  	outline: 4px solid transparent;
     -webkit-transition: outline .2s;
     -moz-transition: outline .2s;
     transition: outline .2s;
