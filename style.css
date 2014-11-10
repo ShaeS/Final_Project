@@ -407,7 +407,27 @@ div.logo_gallery_container {
   	outline-color: #D7CCB9;
 }
 
-/**Portfolio Code **/
+/**Services Code **/
+
+div.servicesp {
+	display:block;
+	clear:both;
+	margin-left: 7%;
+	margin-right: 7%;
+	margin-top: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**Services Code **/
 	
 .homeicons { 
     display: inline;
