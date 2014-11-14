@@ -300,7 +300,7 @@ div.portfoliop {
 	clear:both;
 	margin-left: 7%;
 	margin-right: 7%;
-	margin-top: 3%;
+	margin-top: -2%;
 }
 
 div.logo_gallery_container { 
@@ -316,15 +316,13 @@ div.logo_gallery_container {
 }
 
 .main_image_gallery .main_image {
-  	margin-left: 7%;  
-    margin-right: 7%; 
-    margin-top: 5%;
-    margin-bottom: 3%;
+  	margin-left: 0%;  
+    margin-right: 0%; 
 }
 
 .main_image_gallery .main_image img {
-	max-width:100%;
-	max-height: 100%;
+	max-width: 100%;
+	max-height: 85%;
 	display:none;
 	margin: auto;
 	box-shadow: 3px 3px 3px black;
@@ -334,16 +332,15 @@ div.logo_gallery_container {
     display:block;
 }
 
-.main_image_gallery .main_image img:target ~ img#image9 {
+.main_image_gallery .main_image img:target ~ img#image10 {
     display:none;
 }
 
-.main_image_gallery .main_image img#image9 {
+.main_image_gallery .main_image img#image10 {
     display:block;
 }
 
 .image_box {
-  	padding-bottom: 1em;
 }
 
 .image_gallery img {
