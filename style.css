@@ -203,7 +203,14 @@ textarea.message {
     width: 70%;
     font-size: 1.2vw;
 }
-
+textarea.messageservices {
+    border-color: rgb(220,220,220);
+    outline-color: rgb(200,200,200);
+    resize: none;
+    border: inset; 
+    width: 75%;
+    font-size: 1.2vw;
+}
 input.submit {
     border : solid 1px #4d3f2a;
 	border-radius : 3px;
@@ -214,7 +221,6 @@ input.submit {
 	background-color : #b19f6d;
     outline-color: rgb(200,200,200);
 }
-
 img.social {
     width: 50%;
     display: inline-block;
@@ -412,7 +418,7 @@ div.logo_gallery_container {
 .serviceswrapper{
 	margin-left: 20%;
 	margin-right: 10%;
-	margin-top:3%;
+	margin-top:0%;
 	margin-bottom:3%;
 }
 
@@ -488,13 +494,14 @@ input.nameemail2 {
 	border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
-    width:30%;
+    width:34%;
+    font-size: 1.2vw;
 }
 
 div.budgettext {
 	float:right;
 	display:;
-	margin-right:49.5%;
+	margin-right:51.3%;
 	margin-left:0;
 	margin-top:0;
 	margin-bottom:0;
@@ -503,7 +510,7 @@ div.budgettext {
 div.timelinetext {
 	float:right;
 	display:;
-	margin-right:49%;
+	margin-right:50.5%;
 	margin-left:0;
 	margin-top:0;
 	margin-bottom:0;
