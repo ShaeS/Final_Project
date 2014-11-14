@@ -6,7 +6,7 @@ body {
 	background-attachment: fixed;
     position: relative;
     font-family: 'Avenir';
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     }
 
 img.banner {
@@ -172,8 +172,8 @@ div.contactmap {
     float: left;
     width: 40%;
     height: 20%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
     margin-left:10%;
 }
 
@@ -196,6 +196,7 @@ input.nameemail {
     outline-color: rgb(200,200,200);
     resize: none;
     width: 30%;
+    font-size: 1.2vw;
 }
 
 textarea.message {
@@ -204,6 +205,7 @@ textarea.message {
     resize: none;
     border: inset; 
     width: 70%;
+    font-size: 1.2vw;
 }
 
 input.submit {
