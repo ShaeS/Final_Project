@@ -84,52 +84,72 @@ div.greydivhome {
 }
 
 /**Menubar code **/
-	
-#menubar {
-	text-align:center;
-	font-family:"avenir";
-	font-size:5vw;
-	font-size:3vh;
-	margin-left:auto;
-	margin-right:auto;
-    width: 100%;
+
+
+#menubarbackground{ 
+				background: linear-gradient(#D7CCB9,#B99E6B); 
+				position: inherit; 
+				width: 100%;
+				margin-left: auto;
+				margin-right: auto;
 }
 
-#selected-item { 
-    text-decoration:overline;			
+.listmenu {
+  text-align: center;
+  margin-top:4%;
+  padding:1%;
+  list-style: none;
 }
 
-.menu {
-	display:inline;
-	padding:2%;
-	width:100%;
+a {text-decoration:none;
+   color:white;
+    }
+
+#menubar a:hover {color:#FFFFFF;
+	   text-decoration:overline;
+	   opacity: 0.9;
+ }
+
+.listmenu .menu {
+  font:Avenir; 
+  font-size:1.5vw;
+  font-color:#FFFFFF;
+  display: inline;
+  position: relative;
+  padding:3.5%;
+  margin-top:-1.4;
 }
 
-#menubar a {
-    margin-top:1%;
-    margin-bottom:1%;
-    display:inline-block;
-    text-decoration:inherit;
-    color:#FFFFFF;
-    opacity:.7;
+
+.listmenu .menu .dropdown {
+  padding: 0;
+  position: absolute;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  top: 73.5%;
+  left: 15%;
+  width:160%;
+  height:50%;
+  text-align:left;
+    
 }
 
-#menubarbackground { 		
-    width:100%;
-    background: linear-gradient(#D7CCB9,#B99E6B); 
-    position: relative; 
-    display: block;						
+.listmenu .dd { 
+  background:#B99E6B; 
+  display:block; 
+  color: #ffffff;
+  padding:5%;
 }
 
-#menubarbackround .menulistmenu .menu { 
-    width:100%;
-    display: inline-block; 
+.listmenu .menu:hover .dropdown {
+  display:block;
+  opacity: 1;
+  visibility: visible;
 }
 
-#menubar a:hover {
-    color:#FFFFFF;
-    text-decoration:inherit;
-    opacity: 1;
+#selected-item {text-decoration:overline;
+                color:#FFFFFF;
 }
  
 div#footer {
@@ -531,12 +551,12 @@ div.timelinetext {
 }
 
 .brandicons {
-    margin: 3%; 
+    margin: 2%; 
 }
  
 
 #aivia {
-    margin-bottom:7.5%;
+    margin-bottom:7%;
     width:16%;
 }
 
