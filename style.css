@@ -165,7 +165,7 @@ div.contactleft {
     float: left;
     width: 35%;
     margin-left: 7%;
-    margin-top: 3%;
+    margin-top: -2%;
 }
 
 div.contactmap {
@@ -186,8 +186,8 @@ iframe.map {
 
 div.contactarea {
     margin-left: 7%;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
     margin-right: 7%;
 }
 
@@ -242,7 +242,11 @@ img.sociallink {
     margin-top: 35%;
     box-shadow: 5px 5px 5px black;
 }
-
+img.studiosociallink {
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 25%;
+}
 div.logocenter {
     width:20%;
     margin-left: auto;
