@@ -58,7 +58,7 @@ p.homep {
 p.homepara {	
 	display:block;
 	clear:both;
-	margin: 5%;
+	margin: 2%;
 	}
 
 div.whitedivhome { 
@@ -67,8 +67,6 @@ div.whitedivhome {
 	min-height: 30%;
 	margin-left: auto;
 	margin-right: auto;
-    padding-bottom: 0.1%;
-    padding-top: 0.1%;
 	display: block;
 	clear: both;
 	text-align:center;
@@ -81,8 +79,6 @@ div.greydivhome {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding-top: 0.1%;
-	padding-bottom: 0.1%;
 	clear: both;
 	text-align: center;
 }
@@ -270,7 +266,8 @@ div.footerwhole {
 }
 
 .brandicons:hover {
-	 opacity:0.5;	 
+	 opacity:0.5;
+    padding-top:0;
 }
  
  .brandicons { 
