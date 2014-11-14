@@ -141,20 +141,21 @@ div#footer {
 }
 
 img.teamimg {
-    width: 25%;
+    width: 23%;
     float: left;
-    margin-top: 1.4%;
+    margin-top: 0%;
     margin-left: 2%;
 }
 
 p.teamp {
 	margin-left: 30%;
 	margin-right: 10%;
+    margin-top: 5%;
 	display: block;
 	}
 
 div.teamimg {
-    height :90%;
+    height :10%;
 }
 
 div.contactleft {
@@ -234,14 +235,13 @@ div.socialdiv {
 }
 
 img.footlogo {
-    width: 150%;
-    margin-left: -26%;
+    width: 100%;
 }
 
 img.sociallink {
     width: 25%;
     margin-left: 36%;
-    margin-top: 35%;
+    margin-top: 15%;
     box-shadow: 5px 5px 5px black;
 }
 img.studiosociallink {
@@ -544,29 +544,41 @@ div.timelinetext {
     margin-bottom:.5;
 }
 
-div.greydivteam {
+div.whitedivteam {
 	background-color: #FFFFFF;
 	width: 100%;
 	height:100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding-top: 3%;
-	padding-bottom: 20%;
+	padding-top: 2%;
+	padding-bottom: 13%;
 	clear: both;
 	text-align: center;
 }
 
 
-div.whitedivteam {
+div.greydivteam {
 	background-color: rgb(240,240,240);
 	width: 100%;
-	height:30%;
+	height:100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding-top: 3%;
-	padding-bottom: 20%;
+	padding-top: 2%;
+	padding-bottom: 12%;
+	clear: both;
+	text-align: center;
+}
+div.greykeithdivteam {
+	background-color: rgb(240,240,240);
+	width: 100%;
+	height:100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 2%;
+	padding-bottom: 15%;
 	clear: both;
 	text-align: center;
 }
@@ -578,8 +590,8 @@ div.introteamdiv {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	padding-top: 4%;
-	padding-bottom: 5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
 	clear: both;
 	text-align: center;
 }
