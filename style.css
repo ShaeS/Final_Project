@@ -105,7 +105,7 @@ div.greydivhome {
 
 .menu {
 	display:inline;
-	padding:1.5%;
+	padding:2%;
 	width:100%;
 }
 
@@ -568,5 +568,10 @@ div.introteamdiv {
 }
 
 .portfoliop {text-align:center;
-    {
+}
         
+.serviceheader {text-align:center;
+}
+
+.servicespara {text-align:center;
+}
