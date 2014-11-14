@@ -307,6 +307,7 @@ div.portfoliop {
 	margin-left: 7%;
 	margin-right: 7%;
 	margin-top: -2%;
+	margin-bottom: -4%;
 }
 
 div.logo_gallery_container { 
@@ -323,12 +324,14 @@ div.logo_gallery_container {
 
 .main_image_gallery .main_image {
   	margin-left: 0%;  
-    margin-right: 0%; 
+    margin-right: 0%;
+    margin-bottom:-4%;
+    background: #505050;
 }
 
 .main_image_gallery .main_image img {
 	max-width: 100%;
-	max-height: 85%;
+	max-height: 100%;
 	display:none;
 	margin: auto;
 	box-shadow: 3px 3px 3px black;
@@ -409,7 +412,11 @@ div.logo_gallery_container {
     transition: outline .2s;
 }
 
-.image_gallery li a:hover {
+.image_gallery li a:hover, .image_gallery li a:active {
+  	outline-color: #D7CCB9;
+}
+
+.image_gallery li a:visited {
   	outline-color: #D7CCB9;
 }
 
