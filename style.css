@@ -409,23 +409,105 @@ div.logo_gallery_container {
 
 /**Services Code **/
 
-div.servicesp {
-	display:block;
-	clear:both;
-	margin-left: 7%;
-	margin-right: 7%;
-	margin-top: 3%;
+.serviceswrapper{
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.website_icon, .package_icon, .graphics_icon {
+	margin-left:-.4%;
+	margin-right:-.4%;
+	padding-left:4%;
+	padding-right:4%;
+	padding-top:1%;
+	padding-bottom: 1%;
+	width:20%;
+	background:transparent;
+	opacity: .2;
+}
+
+.website_icon {
+	padding-top: 4.9%;
+}
+
+.graphics_icon {
+	padding-top: 1.7%;
+}
+
+.website_text, .package_text, .graphics_text {
+	background:#ffffff;
+	margin-top:-1%;
+	margin-right:16.5%;
+	margin-left: -.4%;
+	margin-bottom: 3%;
+    display: none;
+    padding:20px;
+}
+
+.website_icon:hover {
+	background:#ffffff;
+	opacity:1.0;
+}
+
+.package_icon:hover {
+	background:#ffffff;
+	opacity:1.0;
+}
+
+.graphics_icon:hover {
+	background:#ffffff;
+	opacity:1.0;
+}
+
+.website_icon:hover ~ .website_text {
+     display: block;
+}
+.package_icon:hover ~ .package_text {
+     display: block;
+}
+.graphics_icon:hover ~ .graphics_text {
+     display: block;
 }
 
 
+.servicescheckbox {
+	width:50%;
+	height:10%;
+	margin-right:20%;
+	margin-left:40%;
+	margin-top: -0.3%;
+	margin-bottom: -50%;
+	display:inline;
+	float:left;
+}
 
+input.nameemail2 {
+	margin-left:10%;
+	border-color: rgb(220,220,220);
+    outline-color: rgb(200,200,200);
+    resize: none;
+    width:30%;
+}
 
+div.budgettext {
+	float:right;
+	display:;
+	margin-right:49.5%;
+	margin-left:0;
+	margin-top:0;
+	margin-bottom:0;
+}
 
-
-
-
-
-
+div.timelinetext {
+	float:right;
+	display:;
+	margin-right:49%;
+	margin-left:0;
+	margin-top:0;
+	margin-bottom:0;
+}
 
 /**Services Code **/
 	
