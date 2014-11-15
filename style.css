@@ -153,7 +153,7 @@ a {text-decoration:none;
 #selected-item {text-decoration:overline;
                 color:#FFFFFF;
 }
- 
+
 div#footer {
     bottom: 0px;
     left:0px;
@@ -332,22 +332,12 @@ div.portfoliop {
 	margin-bottom: -4%;
 }
 
-div.logo_gallery_container { 
-	margin-top: 2%;
-	margin-left: 43%;
-	margin-right: 30%;
-	margin-bottom: -2%;
+
+img.imagemargins{
 }
 
-.logo_gallery_container img {
-	width:50%;
-	height:50%;
-}
 
 .main_image_gallery .main_image {
-  	margin-left: 0%;  
-    margin-right: 0%;
-    margin-bottom:-4%;
     background: #505050;
 }
 
@@ -355,7 +345,7 @@ div.logo_gallery_container {
 	max-width: 100%;
 	max-height: 100%;
 	display:none;
-	margin: auto;
+	margin-right:;
 	box-shadow: 3px 3px 3px black;
 }
 
@@ -372,6 +362,8 @@ div.logo_gallery_container {
 }
 
 .image_box {
+	margin-right: 2%;
+	margin-left:2%;
 }
 
 .image_gallery img {
