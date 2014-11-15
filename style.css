@@ -131,7 +131,7 @@ margin-top:0;
   display: none;
   opacity: 0;
   visibility: hidden;
-  top: 73.5%;
+  top: 75%;
   left: 15%;
   width:160%;
   height:50%;
@@ -157,6 +157,8 @@ margin-top:0;
 #selected-item {text-decoration:overline;
                 color:#FFFFFF;
 }
+
+/**End of Menubar Code**/
 
 div#footer {
     bottom: 0px;
