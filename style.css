@@ -11,7 +11,7 @@ body {
 
 img.banner {
 	width: 100%;
-	margin-bottom:-4%;
+	
 	display: block;
     border-bottom: 5%;
 	}
@@ -20,6 +20,7 @@ div.backg {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top:0%;
     margin-bottom: 2%;
 	display: block;
 	background-color: white;
@@ -96,7 +97,6 @@ div.greydivhome {
 
 .listmenu {
   text-align: center;
-  margin-top:4%;
   padding:1%;
   list-style: none;
 }
@@ -109,6 +109,10 @@ a {text-decoration:none;
 	   text-decoration:overline;
 	   opacity: 0.9;
  }
+
+ul.listmenu{
+margin-top:0;
+}
 
 .listmenu .menu {
   font:Avenir; 
@@ -323,47 +327,40 @@ div.footerwhole {
 		
 /**Portfolio Code **/
 
-div.portfoliop {
-	display:block;
-	clear:both;
-	margin-left: 7%;
-	margin-right: 7%;
-	margin-top: -2%;
-	margin-bottom: -4%;
-}
+
+img #portfolio_banner1{
+margin-bottom: -2%}
 
 
-img.imagemargins{
-}
-
-
-.main_image_gallery .main_image {
+.main_image_gallery {
     background: #505050;
+    height:100%;
 }
 
-.main_image_gallery .main_image img {
-	max-width: 100%;
-	max-height: 100%;
+.main_image_gallery img {
+	max-width: 60em;
+	height: 28em;
 	display:none;
-	margin-right:;
-	box-shadow: 3px 3px 3px black;
+	margin-right:auto;
+	margin-left:auto;
+	padding:2%;
 }
 
-.main_image_gallery .main_image img:target {
+.main_image_gallery  img:target {
     display:block;
 }
 
-.main_image_gallery .main_image img:target ~ img#image10 {
+.main_image_gallery  img:target ~ img#image10 {
     display:none;
 }
 
-.main_image_gallery .main_image img#image10 {
+.main_image_gallery  img#image10 {
     display:block;
-}
-
-.image_box {
-	margin-right: 2%;
-	margin-left:2%;
+	margin-bottom: -0.01%;
+	padding:0;
+	margin-right:0;
+	margin-left:0;
+	max-width:100%;
 }
 
 .image_gallery img {
@@ -430,9 +427,7 @@ img.imagemargins{
   	outline-color: #D7CCB9;
 }
 
-.image_gallery li a:visited {
-  	outline-color: #D7CCB9;
-}
+
 
 /**Services Code **/
 
