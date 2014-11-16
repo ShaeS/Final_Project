@@ -329,10 +329,11 @@ div.footerwhole {
 		
 /**Portfolio Code **/
 
+.portfoliop {text-align:center;
+}
 
 img #portfolio_banner1{
-margin-bottom: -2%}
-
+	margin-bottom: -2%}
 
 .main_image_gallery {
     background: #505050;
@@ -394,8 +395,8 @@ margin-bottom: -2%}
 .image_gallery li {
 	max-width:33%;
 	max-height: 100%;
-	margin-bottom:5%;
-	margin-top: 3%;
+	margin-bottom:0%;
+	margin-top: 0%;
 	margin-right: .3%;
   	padding: 3px;
   	float: left;
@@ -403,6 +404,7 @@ margin-bottom: -2%}
   	border: 1px solid #e3e3e3;
   	border-radius: 2px;
 }
+
 .image_gallery li: {
   	clear: left;
 }
@@ -484,13 +486,13 @@ margin-bottom: -2%}
 }
 
 .website_icon:hover ~ .website_text {
-     display: block;
+    display: block;
 }
 .package_icon:hover ~ .package_text {
-     display: block;
+    display: block;
 }
 .graphics_icon:hover ~ .graphics_text {
-     display: block;
+    display: block;
 }
 
 
@@ -605,8 +607,6 @@ div.introteamdiv {
 	text-align: center;
 }
 
-.portfoliop {text-align:center;
-}
         
 .serviceheader {text-align:center;
 }
