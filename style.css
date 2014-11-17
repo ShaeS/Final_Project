@@ -5,9 +5,16 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
     position: relative;
-    font-family: "Avenir", "Helvetica", "Sans-Serif";
+    font-family: 'Avenir-Book', 'Helvetica', 'Sans-Serif';
     font-size: 1.2vw;
     }
+
+@font-face {
+  font-family: 'Avenir-Book';
+  src: url('/css/webfont/Avenir-Book.eot?#iefix') format('embedded-opentype'),  url('/css/webfont/Avenir-Book.woff') format('woff'), url('/css/webfont/Avenir-Book.ttf')  format('truetype'), url('/css/webfont/Avenir-Book.svg#Avenir-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 img.banner {
 	width: 100%;
@@ -114,7 +121,7 @@ margin-top:0;
 }
 
 .listmenu .menu {
-  font:Avenir; 
+  font:'Avenir-Book'; 
   font-size:1.5vw;
   display: inline;
   position: relative;
