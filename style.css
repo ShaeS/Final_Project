@@ -6,7 +6,7 @@ body {
 	background-attachment: fixed;
     position: relative;
     font-family: 'Avenir-Book', 'Helvetica', 'Sans-Serif';
-    font-size: 1.2vw;
+    font-size: 0.95em;
     }
 
 @font-face {
@@ -30,6 +30,8 @@ div.backg {
 	display: block;
 	background-color: white;
 	box-shadow: -4px 4px 10px black, 4px 4px 10px black;
+    min-width: 800px;
+    min-height: 600px;
 	}
 
 div.whitediv {
@@ -97,11 +99,11 @@ div.greydivhome {
 
 
 #menubarbackground{ 
-				background: linear-gradient(#D7CCB9,#B99E6B); 
-				position: inherit; 
-				width: 100%;
-				margin-left: auto;
-				margin-right: auto;
+    background: linear-gradient(#D7CCB9,#B99E6B); 
+    position: inherit; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .listmenu {
@@ -125,7 +127,7 @@ margin-top:0;
 
 .listmenu .menu {
   font:'Avenir-Book'; 
-  font-size:1.5vw;
+  font-size:1.2em;
   display: inline;
   position: relative;
   padding:3.5%;
@@ -229,7 +231,7 @@ input.nameemail {
     outline-color: rgb(200,200,200);
     resize: none;
     width: 30%;
-    font-size: 1.2vw;
+    font-size: 0.95em;
 }
 
 textarea.message {
@@ -238,7 +240,7 @@ textarea.message {
     resize: none;
     border: inset; 
     width: 70%;
-    font-size: 1.2vw;
+    font-size: 0.95em;
 }
 textarea.messageservices {
     border-color: rgb(220,220,220);
@@ -246,7 +248,7 @@ textarea.messageservices {
     resize: none;
     border: inset; 
     width: 75%;
-    font-size: 1.2vw;
+    font-size: 0.95em;
 }
 input.submit {
     border : solid 1px #4d3f2a;
@@ -301,6 +303,7 @@ div.footerwhole {
 	margin-right: auto;
 	display: block;
 	clear: both;
+    min-width: 800px;
 }
 
 .logocenter:hover {
@@ -534,7 +537,7 @@ input.nameemail2 {
     outline-color: rgb(200,200,200);
     resize: none;
     width:34%;
-    font-size: 1.2vw;
+    font-size: 0.95em;
 }
 
 div.budgettext {
