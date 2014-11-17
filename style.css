@@ -19,7 +19,6 @@ body {
 img.banner {
 	width: 100%;
 	display: block;
-    border-bottom:5%;
 	}
 
 div.backg {
@@ -422,11 +421,6 @@ img #portfolio_banner1{
   	border: 1px solid #e3e3e3;
   	border-radius: 2px;
 }
-
-.image_gallery li: {
-  	clear: left;
-}
-
 .image_gallery li,.image_gallery li a {
   	float: left;
     box-sizing: border-box;
@@ -472,10 +466,15 @@ img #portfolio_banner1{
 
 .website_icon {
 	padding-top: 4.9%;
+    width: 20%;
 }
 
 .graphics_icon {
 	padding-top: 1.7%;
+    width: 20%;
+}
+.package_icon {
+    width: 18%;
 }
 
 .website_text, .package_text, .graphics_text {
@@ -544,7 +543,6 @@ div.budgettext {
 
 div.timelinetext {
 	float:right;
-	display:;
 	margin-right:50.5%;
 	margin-left:0;
 	margin-top:0;
