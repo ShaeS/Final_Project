@@ -356,8 +356,8 @@ div.footerwhole {
 .portfoliop {text-align:center;
 }
 
-#image10 {
-	margin-bottom:-2%;
+img #image10 {
+	margin-bottom: -2%;
 }
 
 .main_image_gallery {
@@ -384,10 +384,11 @@ div.footerwhole {
 .main_image_gallery  img#image10 {
     display:block;
 	margin-bottom: -0.01%;
-	padding:0;
-	margin-right:0;
 	margin-left:0;
-	max-width:100%;
+	margin-right:auto;
+	width:100%;
+	height:100%;
+	padding:0;
 }
 
 .image_gallery img {
