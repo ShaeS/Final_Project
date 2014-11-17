@@ -356,12 +356,12 @@ div.footerwhole {
 .portfoliop {text-align:center;
 }
 
-img #image10 {
-	margin-bottom: -2%}
+#image10 {
+	margin-bottom:-2%;
+}
 
 .main_image_gallery {
     background: #505050;
-    height:100%;
 }
 
 .main_image_gallery img {
