@@ -312,6 +312,19 @@ div.footerwhole {
      opacity:0.5;
 }
 
+.homeicon:hover {
+     opacity:0.5;
+}
+
+.homeicon {
+    width:10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:2%;
+    margin-bottom:2%;
+}
+
+
 .homeheader { 
     text-align:center;
 }
