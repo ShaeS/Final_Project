@@ -7,24 +7,23 @@
     <meta name="keywords" content="ESK, design, studio, burnaby, BCIT">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel=icon href="img/favicon.png" type="image/png">
+
+	<!-- FANCYBOX -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+	</script>
+
   </head>
 
   <body>
     <a name="top"></a>
       <div class="backg">
-
-        <div class="main_image_gallery">        
-      	  <img id="image1" alt="image1" src="img/omgimg/firstOMG.png"/>
-      	  <img id="image2" alt="image2" src="img/omgimg/secondOMG.png"/>
-      	  <img id="image3" alt="image3" src="img/omgimg/thirdOMG.png"/>
-      	  <img id="image4" alt="image4" src="img/aivia/firstaivia.jpg"/>
-      	  <img id="image5" alt="image5" src="img/aivia/thirdaivia.png"/>
-      	  <img id="image6" alt="image6" src="img/aivia/secondaivia.png"/>
-      	  <img id="image7" alt="image7" src="img/esk/firstesk.png"/>
-      	  <img id="image8" alt="image8" src="img/esk/secondesk.png"/>
-      	  <img id="image9" alt="image9" src="img/esk/thirdesk.png"/>
-      	  <img id="image10" alt="image10" src="img/banner1.png"/>
-        </div>
+          <img class="banner" src="img/banner1.png" alt="banner">
 
     <div id="menubarbackground"> 
   <div id="menubar">  
@@ -45,27 +44,27 @@
  
   <div class="whitediv">
   	<ul class="image_gallery">
-    	<li><a title="IMAGE 1" href="#image1"><img class="" alt="" src="img/omgimg/firstOMG_thumb.png"></a></li>
-    	<li><a title="IMAGE 2" href="#image2"><img class="" alt="" src="img/omgimg/secondOMG_thumb.png"></a></li>
-    	<li><a title="IMAGE 3" href="#image3"><img class="" alt="" src="img/omgimg/thirdOMG_thumb.png"></a></li>
+    	<li><a class="fancybox" data-fancybox-group="group" title="An image sharing website for OMGIMG" href="img/omgimg/firstOMG.png"><img alt="" src="img/omgimg/firstOMG_thumb.png"></a></li>
+    	<li><a class="fancybox" data-fancybox-group="group" title="An image sharing website for OMGIMG" href="img/omgimg/secondOMG.png"><img alt="" src="img/omgimg/secondOMG_thumb.png"></a></li>
+    	<li><a class="fancybox" data-fancybox-group="group" title="An image sharing website for OMGIMG" href="img/omgimg/thirdOMG.png"><img alt="" src="img/omgimg/thirdOMG_thumb.png"></a></li>
   	</ul>
   </div>
 
 	<div class="greydiv">
 	  <div id="aivia_center">
 	  	<ul class="image_gallery">
-	      <li><a title="IMAGE 4" href="#image4"><img class="" alt="" src="img/aivia/firstaivia_thumb.png"></a></li>
-	      <li><a title="IMAGE 3" href="#image5"><img class="" alt="" src="img/aivia/thirdaivia_thumb.png"></a></li>
-	      <li><a title="IMAGE 5" href="#image6"><img class="" alt="" src="img/aivia/secondaivia_thumb.png"></a></li>  
+	      <li><a class="fancybox" data-fancybox-group="group" title="IMAGE 4" href="img/AIVIA/firstAIVIA.jpg"><img alt="" src="img/aivia/firstaivia_thumb.png"></a></li>
+	      <li><a class="fancybox" data-fancybox-group="group" title="IMAGE 3" href="img/AIVIA/thirdAIVIA.png"><img alt="" src="img/aivia/thirdaivia_thumb.png"></a></li>
+	      <li><a class="fancybox" data-fancybox-group="group" title="IMAGE 5" href="img/AIVIA/secondAIVIA.png"><img alt="" src="img/aivia/secondaivia_thumb.png"></a></li>  
     	</ul>
     </div>
 	</div>
 
 	<div class="whitediv">
   	<ul class="image_gallery">
-      <li><a title="IMAGE 1" href="#image7"><img class="" alt="" src="img/esk/firstesk_thumb.png"></a></li>
-      <li><a title="IMAGE 2" href="#image8"><img class="" alt="" src="img/esk/secondesk_thumb.png"></a></li>
-      <li><a title="IMAGE 3" href="#image9"><img class="" alt="" src="img/esk/thirdesk_thumb.png"></a></li>
+      <li><a class="fancybox" data-fancybox-group="group" title="IMAGE 1" href="img/ESK/firstESK.png"><img alt="" src="img/esk/firstesk_thumb.png"></a></li>
+      <li><a class="fancybox" data-fancybox-group="group" title="IMAGE 2" href="img/ESK/secondESK.png"><img alt="" src="img/esk/secondesk_thumb.png"></a></li>
+      <li><a class="fancybox" data-fancybox-group="group" title="IMAGE 3" href="img/ESK/thirdESK.png"><img alt="" src="img/esk/thirdesk_thumb.png"></a></li>
     </ul>
 	</div>
 
