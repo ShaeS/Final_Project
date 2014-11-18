@@ -180,11 +180,13 @@ div#footer {
     }
 
 img.teamimg {
-    width: 23%;
-    float: left;
-    margin-top: 0%;
-    margin-left: 2%;
+    width: 100%;
     }
+
+div.teamimgdiv {
+  float:left;
+  width:30%;
+}
 
 p.teamp {
   	margin-left: 30%;
