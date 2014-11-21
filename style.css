@@ -5,13 +5,13 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
     position: relative;
-    font-family: 'Avenir-Medium', 'Helvetica', 'Sans-Serif';
+    font-family: 'Avenir-Light', 'Helvetica', 'Sans-Serif';
     font-size: 0.95em;
     }
 
 @font-face {
-    font-family: 'Avenir-Medium';
-    src: url('css/webfont/Avenir-Medium.eot') format('embedded-opentype'),  url('css/webfont/Avenir-Medium.woff') format('woff'), url('css/webfont/Avenir-Medium.ttf')  format('truetype');
+    font-family: 'Avenir-Light';
+    src: url('css/webfont/Avenir-Light.eot') format('embedded-opentype'),  url('css/webfont/Avenir-Light') format('woff'), url('css/webfont/Avenir-Light')  format('truetype'); 
     font-weight: normal;
     font-style: normal;
     }
@@ -128,7 +128,7 @@ ul.listmenu{
     }
 
 .listmenu .menu {
-    font:'Avenir-Medium'; 
+    font:'Avenir-Light'; 
     font-size:1.2em;
     display: inline;
     position: relative;
@@ -443,7 +443,18 @@ img #image10 {
 
 /**Services Code **/
 
-.serviceswrapper{
+.services_contactarea p {
+    width:76%;
+}
+
+div.services_contactarea {
+    margin-left: 21.5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-right: 7%;
+}
+
+.serviceswrapper {
   	margin-left: 20%;
   	margin-right: 10%;
   	margin-top:0%;
@@ -514,7 +525,7 @@ img #image10 {
     }
 
 .servicescheckbox {
-  	width:50%;
+  	width:40%;
   	height:10%;
   	margin-right:20%;
   	margin-left:40%;
