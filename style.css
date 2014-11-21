@@ -222,7 +222,7 @@ input.emailright {
     border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
-    width: 50%;
+    width: 84%;
     font-size: 0.95em;
     }
 div.namecontact {
@@ -232,6 +232,7 @@ div.namecontact {
 div.emailcontact {
     float:right;
     width:50%;
+    margin-right: -2%
 }
 textarea.message {
     border-color: rgb(220,220,220);
