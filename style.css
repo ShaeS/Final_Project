@@ -357,6 +357,7 @@ div.footerwhole {
 		
 /**Portfolio Code **/
 
+
 .portfoliop {
     text-align:center;
     }
@@ -582,6 +583,14 @@ div.timelinetext {
 
 /**Services Code **/
 	
+.services_email {
+    border-color: rgb(220,220,220);
+    outline-color: rgb(200,200,200);
+    resize: none;
+    width: 30%;
+    font-size: 0.95em;
+  }
+
 .homeicons { 
     display: inline;
     margin: 5%;
