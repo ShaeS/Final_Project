@@ -5,13 +5,13 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
     position: relative;
-    font-family: 'Avenir-Light', 'Helvetica', 'Sans-Serif';
+    font-family: 'Avenir-Light', 'Avenir','Helvetica', 'Sans-Serif';
     font-size: 0.95em;
     }
 
 @font-face {
     font-family: 'Avenir-Light';
-    src: url('css/webfont/Avenir-Light.eot') format('embedded-opentype'),  url('css/webfont/Avenir-Light') format('woff'), url('css/webfont/Avenir-Light')  format('truetype'); 
+    src: url('../css/webfont/Avenir-Light.eot') format('embedded-opentype'),  url('../css/webfont/Avenir-Light.woff') format('woff'), url('../css/webfont/Avenir-Light.tff')  format('truetype'), url('../css/webfont/Avenir-Light.svg') format('svg'); 
     font-weight: normal;
     font-style: normal;
     }
@@ -128,7 +128,7 @@ ul.listmenu{
     }
 
 .listmenu .menu {
-    font:'Avenir-Light'; 
+    font:'Avenir-Light', 'Avenir','Helvetica', 'Sans-Serif';
     font-size:1.2em;
     display: inline;
     position: relative;
@@ -218,6 +218,7 @@ input.nameemail {
     width: 80%;
     font-size: 0.95em;
     }
+
 input.emailright {
     border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
@@ -225,15 +226,18 @@ input.emailright {
     width: 84%;
     font-size: 0.95em;
     }
+
 div.namecontact {
     float:left;
     width:45%;
 }
+
 div.emailcontact {
     float:right;
     width:50%;
     margin-right: -2%
 }
+
 textarea.message {
     border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
@@ -355,6 +359,78 @@ div.footerwhole {
     opacity: .7;
     }
 		
+    
+.home_serviceswrapper{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top:0%;
+    margin-bottom:3%;
+}
+
+.home_website_icon, .home_package_icon, .home_graphics_icon {
+    width:10%;
+    height:100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top:0%;
+    margin-bottom:0%;
+    padding-left:1%;
+    padding-right:1%;
+    background:transparent;
+    opacity: .5;
+}
+
+.home_website_text {
+    background:transparent;
+    margin-top:.5%;
+    margin-right:29%;
+    margin-left: 0%;
+    display: none;
+}
+
+.home_package_text {
+    background:transparent;
+    margin-top:.5%;
+    margin-right:0%;
+    margin-left: 0%;
+    display: none;
+}
+
+.home_graphics_text {
+    background:transparent;
+    margin-top:.5%;
+    margin-right:0%;
+    margin-left:29%;
+    display: none;
+}
+
+.home_website_icon:hover {
+    background:#ffffff;
+    opacity:1.0;
+}
+
+.home_package_icon:hover {
+    background:#ffffff;
+    opacity:1.0;
+}
+
+.home_graphics_icon:hover {
+    background:#ffffff;
+    opacity:1.0;
+}
+
+.home_website_icon:hover ~ .home_website_text {
+    display: block;
+}
+
+.home_package_icon:hover ~ .home_package_text {
+    display: block;
+}
+
+.home_graphics_icon:hover ~ .home_graphics_text {
+    display: block;
+}
+
 /**Portfolio Code **/
 
 
