@@ -201,7 +201,10 @@ iframe.map {
     height: 50%;
     width:100%;
     border-color: black;
-    box-shadow: 5px 5px 30px black;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-bottom-width:thin;
+    border-right-width: 3%;
     }
 
 div.contactarea {
@@ -212,7 +215,6 @@ div.contactarea {
     }
 
 input.nameemail {
-    border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
     width: 80%;
@@ -220,10 +222,9 @@ input.nameemail {
     }
 
 input.emailright {
-    border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
-    width: 84%;
+    width: 81%;
     font-size: 0.95em;
     }
 
@@ -239,16 +240,13 @@ div.emailcontact {
 }
 
 textarea.message {
-    border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
-    resize: none;
-    border: inset; 
+    resize: none; 
     width: 100%;
     font-size: 0.95em;
     }
 
 textarea.messageservices {
-    border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
     border: inset; 
