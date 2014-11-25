@@ -248,10 +248,8 @@ textarea.message {
     }
 
 textarea.messageservices {
-    border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
-    border: inset; 
     width: 75%;
     font-size: 0.95em;
     }
@@ -654,7 +652,6 @@ div.services_contactarea {
 
 input.nameemail2 {
   	margin-left:10%;
-  	border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
     width:34%;
@@ -684,7 +681,6 @@ div.timelinetext {
 /**Services Code **/
 	
 .services_email {
-    border-color: rgb(220,220,220);
     outline-color: rgb(200,200,200);
     resize: none;
     width: 30%;
