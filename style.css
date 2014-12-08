@@ -58,17 +58,6 @@ div.greydiv {
   	clear: both;
   	}
 
-p.homep {
-  	display: block;
-  	clear:both;
-  	}
-
-p.homepara {	
-  	display:block;
-  	clear:both;
-  	margin: 2%;
-  	}
-
 div.whitedivhome { 
   	width: 100%;
   	height:30%;
@@ -91,12 +80,16 @@ div.greydivhome {
   	text-align: center;
     }
 
+a {
+    text-decoration:none;
+    color:white;
+    }
+
 .triangle {
     width:2%;
     }
 
-/**Menubar code **/
-
+/**Start of Menubar Code**/
 
 #menubarbackground{ 
     background: linear-gradient(#D7CCB9,#B99E6B); 
@@ -110,11 +103,6 @@ div.greydivhome {
     text-align: center;
     padding:1%;
     list-style: none;
-    }
-
-a {
-    text-decoration:none;
-    color:white;
     }
 
 #menubar a:hover {
@@ -172,156 +160,34 @@ ul.listmenu{
 
 /**End of Menubar Code**/
 
-div#footer {
-    bottom: 0px;
-    left:0px;
-    width:100%;
-    background: linear-gradient(#B99E6B,#D7CCB9); 
-    position:fixed;
-    }
 
-div.contactleft {
-    float: left;
-    width: 35%;
-    margin-left: 7%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    }
+/**Start of Home Code **/
 
-div.contactmap {
-    float: left;
-    width: 40%;
-    height: 40%;
-    margin-top: 1%;
-    margin-bottom: 2%;
-    margin-left:10%;
-    }
-
-iframe.map {
-    height: 50%;
-    width:100%;
-    border-color: black;
-    border-top-width:thin;
-    border-left-width:thin;
-    border-bottom-width:thin;
-    border-right-width: 3%;
-    }
-
-div.contactarea {
-    margin-left: 7%;
-    margin-top: 0%;
-    margin-bottom: 2%;
-    margin-right: 7%;
-    }
-
-input.nameemail {
-    outline-color: rgb(200,200,200);
-    resize: none;
-    width: 80%;
-    font-size: 0.95em;
-    }
-
-input.emailright {
-    outline-color: rgb(200,200,200);
-    resize: none;
-    width: 81%;
-    font-size: 0.95em;
-    }
-
-div.namecontact {
-    float:left;
-    width:45%;
-}
-
-div.emailcontact {
-    float:right;
-    width:50%;
-    margin-right: -2%
-}
-
-textarea.message {
-    outline-color: rgb(200,200,200);
-    resize: none; 
-    width: 100%;
-    font-size: 0.95em;
-    }
-
-textarea.messageservices {
-    outline-color: rgb(200,200,200);
-    resize: none;
-    width: 75%;
-    font-size: 0.95em;
-    }
-
-input.submit {
-    border : solid 1px #4d3f2a;
-  	border-radius : 3px;
-  	box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
-  	font-size : 20px;
-  	color : rgb(237,233,223);
-  	padding : 0px 10px;
-  	background-color : #b19f6d;
-    outline-color: rgb(200,200,200);
-    }
-input.submit:hover {
-    border : solid 1px #4d3f2a;
-  	border-radius : 3px;
-  	box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
-  	font-size : 20px;
-  	color : rgb(100,100,100);
-  	padding : 0px 10px;
-  	background-color : #b19f6d;
-    outline-color: rgb(200,200,200);
-    }
-
-img.social {
-    width: 50%;
-    display: inline-block;
-    }
-
-div.socialdiv {
-    margin-left: auto;
-    margin-right: auto;
+p.homep {
     display: block;
-    width: 5%;
+    clear:both;
     }
 
-img.footlogo {
-    width: 100%;
+p.homepara {  
+    display:block;
+    clear:both;
+    margin: 2%;
     }
 
-img.sociallink {
-    width: 25%;
-    margin-left: 36%;
-    margin-top: 15%;
-    box-shadow: 5px 5px 5px black;
+#aivia {
+    margin-bottom:7%;
+    width:16%;
     }
 
-img.studiosociallink {
-    width: 50%;
-    margin-left: 0%;
-    margin-top: 25%;
+.homeicons { 
+    display: inline;
+    margin: 5%;
     }
 
-div.logocenter {
-    width:20%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    float: left;
-    margin-bottom: 4%;
+.brandicons {
+    margin: 2%; 
     }
-
-div.footerwhole {
-    background-color: rgb(240,240,240);
-  	width: 75%;
-  	margin-left: auto;
-  	margin-right: auto;
-  	display: block;
-  	clear: both;
-    min-width: 800px;
-    }
-
+ 
 .logocenter:hover {
     opacity: 0.7;
     }
@@ -331,11 +197,11 @@ div.footerwhole {
     padding-top:0;
     }
  
- .brandicons { 
+.brandicons { 
     width: 12%;		   
     }
  
- .homeicons:hover {
+.homeicons:hover {
     opacity:0.5;
     }
 
@@ -365,14 +231,13 @@ div.footerwhole {
     text-decoration:underline;
     opacity: .7;
     }
-		
-    
+		   
 .home_serviceswrapper{
     margin-left: 0%;
     margin-right: 0%;
     margin-top:0%;
     margin-bottom:3%;
-}
+    }
 
 .home_website_icon, .home_package_icon, .home_graphics_icon {
     width:10%;
@@ -385,7 +250,7 @@ div.footerwhole {
     padding-right:1%;
     background:transparent;
     opacity: .7;
-}
+    }
 
 .home_website_text {
     background:transparent;
@@ -393,7 +258,7 @@ div.footerwhole {
     margin-right:29%;
     margin-left: 0%;
     display: none;
-}
+    }
 
 .home_package_text {
     background:transparent;
@@ -401,7 +266,7 @@ div.footerwhole {
     margin-right:0%;
     margin-left: 0%;
     display: none;
-}
+    }
 
 .home_graphics_text {
     background:transparent;
@@ -409,36 +274,39 @@ div.footerwhole {
     margin-right:0%;
     margin-left:29%;
     display: none;
-}
+    }
 
 .home_website_icon:hover {
     background:#ffffff;
     opacity:1.0;
-}
+    }
 
 .home_package_icon:hover {
     background:#ffffff;
     opacity:1.0;
-}
+    }
 
 .home_graphics_icon:hover {
     background:#ffffff;
     opacity:1.0;
-}
+    }
 
 .home_website_icon:hover ~ .home_website_text {
     display: block;
-}
+    }
 
 .home_package_icon:hover ~ .home_package_text {
     display: block;
-}
+    }
 
 .home_graphics_icon:hover ~ .home_graphics_text {
     display: block;
-}
+    }
 
-/**Portfolio Code **/
+/*End of Home Code **/
+
+
+/**Start of Portfolio Code **/
 
 
 .portfoliop {
@@ -481,17 +349,17 @@ img #image10 {
     }
 
 div.portfolio_href_div {
-width:100%;
-text-align:center;
-}
+    width:100%;
+    text-align:center;
+    }
 
 a.black_anchor {
-color: #000000;
-}
+    color: #000000;
+    }
 
 a.black_anchor:hover {
-text-decoration: underline;
-}
+    text-decoration: underline;
+    }
 
 .image_gallery img {
    	max-width:100%;
@@ -555,18 +423,27 @@ text-decoration: underline;
   	outline-color: #D7CCB9;
     }
 
-/**Services Code **/
+/**End of Portfolio Code **/
+
+
+/**Start of Services Code **/
+
+.serviceheader {text-align:center;
+    }
+
+.servicespara {text-align:center;
+    }
 
 .services_contactarea p {
     width:76%;
-}
+    }
 
 div.services_contactarea {
     margin-left: 21.5%;
     margin-top: 0%;
     margin-bottom: 2%;
     margin-right: 7%;
-}
+    }
 
 .serviceswrapper {
   	margin-left: 20%;
@@ -677,8 +554,6 @@ div.timelinetext {
   	margin-bottom:0;
     }
 
-/**Services Code **/
-	
 .services_email {
     outline-color: rgb(200,200,200);
     resize: none;
@@ -686,19 +561,10 @@ div.timelinetext {
     font-size: 0.95em;
   }
 
-.homeicons { 
-    display: inline;
-    margin: 5%;
-    }
+/**End of Services Code **/
 
-.brandicons {
-    margin: 2%; 
-    }
- 
-#aivia {
-    margin-bottom:7%;
-    width:16%;
-    }
+
+/**Start of Team Code **/
 
 div.introteamdiv {
   	background-color: #FFFFFF;
@@ -713,34 +579,195 @@ div.introteamdiv {
   	text-align: center;
     }
    
-.serviceheader {text-align:center;
-    }
-
-.servicespara {text-align:center;
-    }
-
 div.clear {
     clear: both;
-}
+    }
+
 div.teamimg {
     width:23%;
     float:left;
     margin-left:2%;
     margin-top: 2%;
     margin-bottom: 1.5%;
-}
+    }
+
 div.teampara {
     margin-left: 30%;
     margin-right: 10%;
     text-align:center;
     margin-top: 8%;
-}
+    }
+
 img.team {
     width: 100%;
-}
+    }
+
 p.teamintro {
     text-align: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 3%;
-}
+    }
+
+/**End of Team Code **/
+
+
+/**Start of Contact Code**/
+
+div#footer {
+    bottom: 0px;
+    left:0px;
+    width:100%;
+    background: linear-gradient(#B99E6B,#D7CCB9); 
+    position:fixed;
+    }
+
+div.contactleft {
+    float: left;
+    width: 35%;
+    margin-left: 7%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    }
+
+div.contactmap {
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left:10%;
+    }
+
+iframe.map {
+    height: 50%;
+    width:100%;
+    border-color: black;
+    border-top-width:thin;
+    border-left-width:thin;
+    border-bottom-width:thin;
+    border-right-width: 3%;
+    }
+
+div.contactarea {
+    margin-left: 7%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-right: 7%;
+    }
+
+input.nameemail {
+    outline-color: rgb(200,200,200);
+    resize: none;
+    width: 80%;
+    font-size: 0.95em;
+    }
+
+input.emailright {
+    outline-color: rgb(200,200,200);
+    resize: none;
+    width: 81%;
+    font-size: 0.95em;
+    }
+
+div.namecontact {
+    float:left;
+    width:45%;
+    }
+
+div.emailcontact {
+    float:right;
+    width:50%;
+    margin-right: -2%
+    }
+
+textarea.message {
+    outline-color: rgb(200,200,200);
+    resize: none; 
+    width: 100%;
+    font-size: 0.95em;
+    }
+
+textarea.messageservices {
+    outline-color: rgb(200,200,200);
+    resize: none;
+    width: 75%;
+    font-size: 0.95em;
+    }
+
+input.submit {
+    border : solid 1px #4d3f2a;
+    border-radius : 3px;
+    box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+    font-size : 20px;
+    color : rgb(237,233,223);
+    padding : 0px 10px;
+    background-color : #b19f6d;
+    outline-color: rgb(200,200,200);
+    }
+
+input.submit:hover {
+    border : solid 1px #4d3f2a;
+    border-radius : 3px;
+    box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+    font-size : 20px;
+    color : rgb(100,100,100);
+    padding : 0px 10px;
+    background-color : #b19f6d;
+    outline-color: rgb(200,200,200);
+    }
+
+img.social {
+    width: 50%;
+    display: inline-block;
+    }
+
+div.socialdiv {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 5%;
+    }
+
+img.footlogo {
+    width: 100%;
+    }
+
+img.sociallink {
+    width: 25%;
+    margin-left: 36%;
+    margin-top: 15%;
+    box-shadow: 5px 5px 5px black;
+    }
+
+img.studiosociallink {
+    width: 50%;
+    margin-left: 0%;
+    margin-top: 25%;
+    }
+
+/**End of Contact Code**/
+
+
+/**Start of Footer Code**/
+
+div.footerwhole {
+    background-color: rgb(240,240,240);
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+    min-width: 800px;
+    }
+
+div.logocenter {
+    width:20%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: left;
+    margin-bottom: 4%;
+    }
+
+/**End of Footer Code**/
